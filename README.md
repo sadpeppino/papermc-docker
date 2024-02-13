@@ -23,3 +23,13 @@ $ screen -list
 # find the only screen open and copy its id
 $ screen -x <screen-id>
 ```
+
+# Compose
+
+You can run and build the image with docker compose:
+
+```sh
+$ docker compose up -d --build
+```
+
+> Change the volume position to a static folder, to make server maintenance easier

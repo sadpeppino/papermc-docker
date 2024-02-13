@@ -9,7 +9,7 @@ $ docker build -t minecraft-server .
 Run the server using:
 
 ```sh
-$ docker run -name minecraft-server -d -e MEMORY_ALLOC=1G minecraft-server
+$ docker run -name minecraft-server -t -d -e MEMORY_ALLOC=1G minecraft-server
 ```
 
 # Accessing the Console
